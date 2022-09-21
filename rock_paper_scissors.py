@@ -61,7 +61,7 @@ def main(com_choice):
     clock = pygame.time.Clock()
     screen=pygame.display.set_mode((WIDTH,HEIGHT))
     pygame.display.set_caption(CAPTION)
-    pygame.display.set_icon(icon:=pygame.image.load(icon_img))
+    pygame.display.set_icon(icon=pygame.image.load(icon_img))
 
     running=True
     while running:
